@@ -1,0 +1,52 @@
+.panel1{
+   -fx-background-color: rgb(0, 105, 87);
+}
+
+.panel2{
+    -fx-background-color: rgb(237, 237, 237);
+}
+
+.panel3{
+    -fx-background-color:  black;
+}
+
+.panel4{
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-background-radius: 10 10 10 10;
+    -fx-effect: dropshadow(gaussian, #e7e7e7, 5, 0.5, 1, 1);
+}
+
+.loginBtn{
+    -fx-background-color: rgb(0, 105, 87);
+    -fx-background-radius: 5 5 5 5;
+    -fx-text-fill: white;
+}
+.loginBtn:hover{
+    -fx-background-color: rgb(4, 157, 132);
+    -fx-background-radius: 5 5 5 5;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, #cccccc, 10, 0.5, 2, 2);
+}
+
+.MainBtn{
+    -fx-background-color: rgb(0, 105, 87);
+    -fx-text-fill: white;
+}
+.MainBtn:hover{
+    -fx-background-color: rgb(4, 157, 132);
+    -fx-text-fill: white;
+    
+}
+
+.CardViewBtn{
+    -fx-background-color: rgb(0, 105, 87);
+    -fx-text-fill: white;
+    -fx-background-radius: 15 15 15 15;
+}
+.CardViewBtn:hover{
+    
+    -fx-text-fill: white;
+    -fx-background-radius: 15 15 15 15;
+    -fx-effect: dropshadow(gaussian, #cccccc, 10, 0.5, 2, 2);
+    
+}

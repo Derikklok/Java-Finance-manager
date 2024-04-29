@@ -1,0 +1,110 @@
+.panel1{
+    -fx-background-color: rgb(0, 105, 87);
+ }
+ .navBar{
+   -fx-background-color: rgb(0, 105, 87);
+   -fx-background-radius: 10 10 10 10;
+}
+
+ .pane2{
+   -fx-background-color: rgb(237, 237, 237);
+ }
+ .pane3{
+   -fx-background-color: rgb(224, 223, 223);
+ }
+.pane4{
+   -fx-background-color: rgb(255, 255, 255);
+   -fx-background-radius: 5 5 5 5;
+   -fx-effect: dropshadow(gaussian, #e7e7e7, 5, 0.5, 1, 1);
+}
+ .btnDash{
+    -fx-background-color: rgb(0, 105, 87);
+    -fx-text-fill: white;
+ }
+
+ .btnDash:hover{
+    -fx-background-color: rgb(4, 157, 132);
+    -fx-text-fill: white;
+}
+
+.btnTemplate{
+   -fx-background-color: rgb(0, 105, 87);
+   -fx-text-fill: white;
+   
+}
+
+.btnTemplate:hover{
+   -fx-background-color: rgb(4, 157, 132);
+   -fx-text-fill: white;
+   -fx-font-weight: bold;
+   -fx-border-color: #fefefe;
+   -fx-border-radius: 5px; 
+   -fx-underline: true;
+}
+
+.btnAddCollection{
+   -fx-background-color: rgb(0, 105, 87);
+   -fx-text-fill: white;
+   -fx-border-radius: 5px;
+}
+
+.btnAddCollection:hover{
+   -fx-background-color: rgb(0, 202, 17);
+   -fx-text-fill: white;
+   /*-fx-font-weight: bold; rgb(4, 157, 132);
+   -fx-border-color: #fefefe;*/
+   -fx-border-radius: 5px; 
+   -fx-underline: true;
+   
+}
+
+.btnAddIncome{
+   -fx-background-color: rgb(0, 82, 169);
+   -fx-text-fill: white;
+}
+.btnAddIncome:hover{
+   -fx-background-color: rgb(0, 114, 236);
+   -fx-text-fill: white;
+   -fx-underline: true;
+}
+.btnAddIncome:pressed{
+   -fx-background-color: rgb(13, 0, 99);
+   -fx-text-fill: rgb(255, 255, 255);
+   -fx-underline: true;
+}
+
+.btnAddExpense{
+   -fx-background-color: rgb(113, 48, 77);
+   -fx-text-fill: white;
+}
+.btnAddExpense:hover{
+   -fx-background-color: rgb(167, 57, 106);
+   -fx-text-fill: white;
+   -fx-underline: true;
+}
+.btnAddExpense:pressed{
+   -fx-background-color: rgb(77, 0, 34);
+   -fx-text-fill: white;
+   -fx-underline: true;
+}
+
+.btnSavings{
+   -fx-background-color: rgb(159, 127, 0);
+   -fx-text-fill: white;
+}
+.btnSavings:hover{
+   -fx-background-color: rgb(238, 198, 0);
+   -fx-text-fill: rgb(0, 0, 0);
+   -fx-underline: true;
+}
+
+.btnCredit{
+   -fx-background-color: rgb(154, 0, 0);
+   -fx-text-fill: white;
+}
+.btnCredit:hover{
+   -fx-background-color: rgb(216, 0, 0);
+   -fx-text-fill: white;
+   -fx-underline: true;
+   -fx-transition-duration: 0.5s;
+}

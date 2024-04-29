@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.epsilon.AppController">
+   <children>
+      <Pane prefHeight="500.0" prefWidth="300.0" styleClass="panel1" stylesheets="@index.css">
+         <children>
+            <ImageView fitHeight="350.0" fitWidth="400.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/Credit%20card-bro.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="14.0" layoutY="20.0" text="EPSILON" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="46.0" text="Your personal finance manager" textFill="WHITE" />
+         </children>
+      </Pane>
+      <Pane layoutX="300.0" prefHeight="500.0" prefWidth="400.0" styleClass="panel2" stylesheets="@index.css">
+         <children>
+            <Label layoutX="36.0" layoutY="39.0" text="Log-in to your account">
+               <font>
+                  <Font name="Calibri Light Italic" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="88.0" text="Username" />
+            <Label layoutX="38.0" layoutY="162.0" text="Password" />
+            <Button layoutX="40.0" layoutY="238.0" mnemonicParsing="false" onAction="#onLoginBtnClick" prefHeight="30.0" prefWidth="320.0" styleClass="loginBtn" stylesheets="@index.css" text="Login" />
+            <Label layoutX="38.0" layoutY="327.0" text="New to Epsilon">
+               <font>
+                  <Font name="Calibri Light Italic" size="16.0" />
+               </font>
+            </Label>
+            <Button layoutX="37.0" layoutY="366.0" mnemonicParsing="false" onAction="#onRegisterButtonClick" prefHeight="30.0" prefWidth="320.0" styleClass="loginBtn" stylesheets="@index.css" text="Register" />
+            <TextField fx:id="txtUser" layoutX="40.0" layoutY="112.0" prefHeight="30.0" prefWidth="320.0" />
+            <TextField fx:id="txtPass" layoutX="40.0" layoutY="188.0" prefHeight="30.0" prefWidth="320.0" />
+            <Separator layoutX="40.0" layoutY="299.0" prefWidth="320.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
